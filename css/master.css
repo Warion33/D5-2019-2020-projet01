@@ -1,0 +1,139 @@
+
+@media screen and (min-width: 0px) {
+  body {
+    font-size: 10px;
+    background-color: #333038;
+    width: 100%;
+    align-items: center;
+  }
+
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80vw;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1frz;
+  }
+
+
+  .grid-item0 {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 1em;
+    opacity: 0.3;
+  }
+
+  .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    width: 100%;
+  }
+
+  .grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: left;
+    width: 100%;
+  }
+
+  #signature {
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    font-size: 10px;
+    background-color: #333038;
+    text-align: center;
+    width: 100%;
+  }
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80vw;
+    align-items: center;
+    margin: 10vw;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .grid-item {
+    text-align: center;
+    width: 15vw;
+  }
+
+  .grid-item0 {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    font-size: 0.8em;
+    opacity: 0.3;
+  }
+
+  .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+  }
+
+  .grid-item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+    text-indent: 15px;
+  }
+  #signature {
+    opacity: 0.5;
+  }
+}
+
+
+@media screen and (min-width: 1100px) {
+
+  body {
+    font-size: 10px;
+    background-color: #333038;
+    width: 100%;
+  }
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80vw;
+    align-items: center;
+    margin: 10vw;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .grid-item {
+    text-align: center;
+    width: 200px;
+  }
+
+  .grid-item0 {
+    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10px;
+    font-size: 0.8em;
+    opacity: 0.3;
+  }
+
+  .grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+  }
+
+  .grid-item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+    text-indent: 15px;
+  }
+  #signature {
+    opacity: 0.5;
+  }
+}
